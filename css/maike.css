@@ -1,0 +1,71 @@
+.Block {
+  background-color: #FE9A2E;
+  color: white;
+  padding: 20px;
+  font-size: 130%;
+}
+  .CR {
+    color: blue;
+    text-align: right;
+  }
+  .h3 {
+font-size: 130%;
+color: white;
+margin-right: 1000px;
+  }
+  label {
+    color: black;
+    margin-right: 1000px;
+  }
+  body {
+    background-color: #E0F8F1;
+    background-image: url("https://images.unsplash.com/photo-1499262222376-d10eb3d5183f?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=9595454c59fe24e034539a349292d643&w=1000&q=80");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+div {
+  text-align: center;
+  margin-bottom: 2em;
+}
+article{
+  text-align: center;
+}
+p {
+  margin-bottom: 7em;
+}
+input {
+  margin-bottom: 2em;
+  margin-right: 1000px;
+}
+select {
+  margin-right: 1000px;
+}
+footer {
+  margin-top: 2em;
+}
+textarea {
+  margin-right: 1000px;
+  margin-bottom: 1em;
+}
+#Willkommen {
+    color: #0B3861;
+  text-align: center;
+letter-spacing: .2rem;
+font-family: serif;
+font-size: 400%;
+margin-top: 100px;
+margin-bottom: 120px;
+}
+#Betreff {
+  color: white;
+}
+#Nachricht {
+  color: white;
+}
+#Artikel {
+  margin-top: 4em;
+}
+#Name {
+  margin-right: 1500px;
+}

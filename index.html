@@ -3,34 +3,47 @@
 <head>
 <meta charset="utf-8"/>
 <meta http-equiv="expires" content="0"/>
-<style>
-.Block {
-  background-color: lightblue;
-  color: white;
-  padding: 20px;
-  font-size: 16px;
-}
-  .CR {
-    color: blue;
-  }
-</style>
-<title>Übung Nr.2 </title>
+<link href="./css/maike.css" rel="stylesheet" type="text/css"/>
+<title>It's Hammer Time</title>
 </head>
 <body>
  <header>
-  <h1>Wilkommen!</h1>
+  <h1 id=Willkommen>Willkommen!</h1>
    <div>
-    <a class="Block" href="#Home">Home</a>
-    <a class="Block" href="menuepunkt.html">Menüpunkt 1</a>
-    <a class="Block" href="menuepunkt2.html">Menüpunkt 2</a>
-  </div>
- </header>
-<article>
+     <a class="Block" href="index.html">Home</a>
+     <a class="Block" href="menuepunkt.html">Menüpunkt 1</a>
+     <a class="Block" href="menuepunkt2.html">Menüpunkt 2</a>
+     <a class="Block" href="aussicht.html">Die schöne Aussicht</a>
+    </div>
+  </header>
+<article id="Artikel">
   <h2>Übung macht den Meister</h2>
-    <p>Das ist der Artikel/Bericht</p>
+    <p>Weit hinten, hinter den Wortbergen, fern der Länder Vokalien und Konsonantien leben die Blindtexte. Abgeschieden wohnen sie in Buchstabhausen an der Küste des Semantik, eines großen Sprachozeans. Ein kleines Bächlein namens Duden fließt durch ihren Ort und versorgt sie mit den nötigen Regelialien. Es ist ein paradiesmatisches Land, in dem einem gebratene Satzteile in den Mund fliegen. Nicht einmal von der allmächtigen Interpunktion werden die Blindtexte beherrscht – ein geradezu unorthographisches Leben. Eines Tages aber beschloß eine kleine Zeile Blindtext, ihr Name war Lorem Ipsum, hinaus zu gehen in die weite Grammatik. Der große Oxmox riet ihr davon ab, da es dort wimmele von bösen Kommata, wilden Fragezeichen und hinterhältigen Semikoli, doch das Blindtextchen ließ sich nicht beirren. Es packte seine sieben Versalien, schob sich sein Initial in den Gürtel und machte sich auf den Weg. Als es die ersten Hügel des Kursivgebirges erklommen hatte, warf es einen letzten Blick zurück auf die Skyline seiner Heimatstadt Buchstabhausen, die Headline von Alphabetdorf und die Subline seiner eigenen Straße, der Zeilengasse. Wehmütig lief ihm eine rhetorische Frage über die Wange, dann setzte es seinen Weg fort. Unterwegs traf es eine Copy. Die Copy warnte das Blindtextchen, da, wo sie herkäme wäre sie </p>
 </article>
+<section>
+<form action="formular.php" method="post">
+<h2>Kontaktformular:</h2>
+  <label id="E-Mail" for="E-Mail">E-Mail:</label>
+  <input type="email" name="E-Mail" maxlength="30">
+  <label id="Name" for="Name">Name:</label>
+    <select name="Anrede">
+      <option>Frau</option>
+      <option>Herr</option>
+      <option>Außerirdische/r</option>
+    </select>
+    <input type="text" name="Name" maxlength="30">
+<label class="h3">Kommentar:</label>
+  <label id="Betreff" for="Betreff">Betreff:</label>
+  <input type="text" name="Betreff" maxlength="30">
+<label id="Nachricht" for="Nachricht">Nachricht:</label>
+<textarea rows="5" cols="50" name="Nachricht">
+</textarea>
+    <button type="reset">Eingaben zurücksetzen</button>
+    <button type="submit">Eingaben absenden</button>
+</form>
+</section>
      <footer>
-       <a class="CR">&copy; 2018 Maike Hammer</a>
+       <div class="CR">&copy; 2018 Maike Hammer</div>
      </footer>
 </body>
 </html>
